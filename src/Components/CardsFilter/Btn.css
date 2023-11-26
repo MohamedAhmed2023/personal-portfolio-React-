@@ -1,0 +1,43 @@
+.Btn-filter {
+    border-radius: .25rem;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 400;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: #fff;
+    -webkit-clip-path: polygon(0 0, 0 0, 100% 0, 100% 0, 100% calc(100% - 15px), calc(100% - 15px) 100%, 15px 100%, 0 100%);
+    clip-path: polygon(0 0, 0 0, 100% 0, 100% 0, 100% calc(100% - 15px), calc(100% - 15px) 100%, 15px 100%, 0 100%);
+    height: 40px;
+    font-size: 0.7rem;
+    line-height: 14px;
+    letter-spacing: 1.2px;
+    transition: .2s .1s;
+    /* background-image: linear-gradient(90deg, #181840, #6220fb); */
+    background-color: #011525;
+    font-family: 'Playpen Sans', cursive;
+    font-size: 12px;
+    border: 0 solid;
+    overflow: hidden;
+    margin: 0 10px;
+    font-weight: 600;
+}
+
+.Btn-filter:hover {
+    cursor: pointer;
+    transition: all .3s ease-in;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+
+/* responsive mobile */
+
+@media (max-width:992px) {
+    .Btn-filter {
+        margin: 0 5px;
+        text-align: center;
+        font-size: 10px;
+        padding: 010px;
+    }
+}

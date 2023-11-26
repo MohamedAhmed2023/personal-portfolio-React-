@@ -1,0 +1,170 @@
+.container-home {
+    display: flex;
+    flex-direction: column;
+    background-color: #02223B;
+    font-family: 'Playpen Sans', cursive;
+    height: 80vh;
+}
+
+.home-content {
+    margin-top: 100px;
+}
+
+.home-content img {
+    border-radius: 50%;
+    width: 250px;
+    text-align: center;
+    border: 2px solid white;
+}
+
+.home-content h2 {
+    color: #ffffff;
+    font-size: 50px;
+    margin: 15px 0;
+}
+
+.home-content p {
+    color: #fff !important;
+    text-align: center;
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+.home-content button {
+    padding: 12px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    background: #fff;
+    color: #02223B;
+    outline: none;
+    border: none;
+    margin: 15px 0;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.home-content button:hover, .left-content button:hover {
+    background-color: #02223B;
+    color: #ffffff;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+/* ABOUT section */
+
+.about-content {
+    display: flex;
+    font-family: 'Playpen Sans', cursive;
+    justify-content: space-between;
+    gap: 70px;
+    margin-top: 100px;
+    margin: 100px 0;
+}
+
+.about-content .left-content,
+.about-content .right-content {
+    width: 50%;
+    color: #ffffff;
+}
+
+.left-content {
+    text-align: start;
+}
+
+.left-content p {
+    margin: 20px 0;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.left-content button {
+    padding: 10px 34px;
+    background-color: #fff;
+    color: #02223B;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+}
+
+
+/* right-content */
+
+
+.right-content {
+    text-align: start;
+}
+
+
+
+.perant-skills {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    margin-top: 10px;
+
+}
+
+.perant-skills div {
+    padding: 6px 20px;
+    background-color: #00C9E0;
+    background-color: #011525;
+    letter-spacing: 1px;
+    color: #ffff;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+/* responsive mobile */
+
+@media(max-width:992px) {
+    .container-home {
+        height: 90vh;
+    }
+
+    .home-content {
+        width: 95%;
+        margin: auto;
+    }
+
+    .home-content img {
+        width: 200px;
+    }
+
+    .home-content h2 {
+        font-size: 25px;
+    }
+
+    .home-content p {
+        font-size: 20px;
+    }
+
+    .about-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-content .left-content,
+    .about-content .right-content {
+        width: 100%;
+        text-align: start;
+        margin-left: 5px;
+    }
+
+    .perant-skills {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .home-content button, .left-content button {
+        padding: 12px 24px;
+        font-size: 17px;
+    }
+
+    .left-content p {
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
+
+}
