@@ -9,6 +9,7 @@ import Age from "./Components/images/Age.png"
 import Todo from "./Components/images/todo.png"
 import Qr from "./Components/images/QR.png"
 import Crud from "./Components/images/Curd.png"
+import Speech from "./Components/images/speech.png"
 
 const CardsData = [
     {
@@ -76,6 +77,16 @@ const CardsData = [
         ,
     },
     {
+        href: "https://mohamedahmed2023.github.io/Text-To-Speech-Generator/",
+        type: "JS",
+        "id": 12,
+        "title":
+            "Text To Speech Generator"
+        ,
+        image: Speech
+        ,
+    },
+    {
         href: "",
         type: "React",
         "id": 9,
@@ -105,6 +116,7 @@ const CardsData = [
         image: Crud
         ,
     },
+
 
 
 ]
