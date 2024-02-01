@@ -1,5 +1,5 @@
 import Mohamed from "../images/Mohamed.jpg"
-import CV from "./MyCV/mohamed Ahmed CV..pdf"
+import CV from "./MyCV/mohamed Ahmed CV.pdf"
 import "./HomePage.css"
 import HeadingText from "../HeadingText";
 function HomePage() {
@@ -21,8 +21,11 @@ function HomePage() {
                     <div id="AboutSection" className="about-content">
                         <div className="left-content">
                             <h2>Get to know me!</h2>
-                            <p>I'm mohamed Front End Developer And UI\UX Designer Student at Sinai University, Faculty of Information Technology
-                                understand HTML,CSS and Javascript,React, extremely desire for challenging projects and also learning opportunaties Looking for internship or work</p>
+                            <p>I'm front end developer with one year experience creating website using ReactJs I have ability to write the
+                                clean code using JavaScript and responsive UI using ReactJs , understand HTML, CSS and Javascript, ReactJs
+                                extremely desire for challenging projects as well as stronge ability to commuicate and work in team effectively
+                                , I'm looking for a job where my educational background, experience and skills can be fully utilized and
+                                enhanced</p>
                             <a href="#contactSection"><button type="button">Contact</button></a>
                         </div>
                         <div className="right-content">

@@ -3,7 +3,7 @@
     justify-content: space-between;
     color: #fff;
     padding: 100px 50px;
-    font-family: 'Playpen Sans', cursive;
+    font-family: 'Kanit', sans-serif;
     margin-top: 50px;
     border-bottom: 1px solid#fff;
 }
@@ -28,7 +28,7 @@
 .lower-Footer {
     color: #fff;
     padding: 20px 10px;
-    font-family: 'Playpen Sans', cursive;
+    font-family: 'Kanit', sans-serif;
     font-size: 20px;
 }
 
@@ -50,7 +50,7 @@
     .lower-Footer {
         color: #fff;
         padding: 15px 8px;
-        font-family: 'Playpen Sans', cursive;
+        font-family: 'Kanit', sans-serif;
         font-size: 15px;
     }
 }

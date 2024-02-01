@@ -5,19 +5,15 @@ body {
   background-color: #02223B !important;
 }
 
-code {
-  /* font-family: 'Source Sans Pro', sans-serif; */
-}
-
 .HeadingText {
   color: #ffff;
   margin: 30px 0;
-  font-family: 'Playpen Sans', cursive;
+  font-family: 'Kanit', sans-serif;
 }
 
 .h2-Heading {
   margin: 15px 0;
-  font-family: 'Playpen Sans', cursive;
+  font-family: 'Kanit', sans-serif;
 }
 
 
@@ -35,5 +31,5 @@ code {
 .p-Heading {
   font-size: 18px;
   margin: 45px 0;
-  font-family: 'Playpen Sans', cursive;
+  font-family: 'Kanit', sans-serif;
 }
