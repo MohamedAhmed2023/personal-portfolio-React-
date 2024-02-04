@@ -4,7 +4,7 @@
     justify-content: center;
     gap: 20px;
     margin-top: 50px !important;
-    font-family: 'Playpen Sans', cursive;
+    font-family: 'Kanit', sans-serif;
 
 }
 
@@ -13,6 +13,7 @@
     transition: all .5s ease-in;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     border-radius: 10px !important;
+    overflow: hidden;
 }
 
 
@@ -45,7 +46,7 @@
 
 .overlay__text {
     color: white;
-    font-size: 14px !important;
+    font-size: 15px !important;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -100,6 +101,6 @@
 
     .overlay__text {
         color: white;
-        font-size: 12px !important;
+        font-size: 10px !important;
     }
 }
