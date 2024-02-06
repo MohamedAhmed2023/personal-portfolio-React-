@@ -10,7 +10,6 @@ import Todo from "./Components/images/todo.png"
 import Qr from "./Components/images/QR.png"
 import Crud from "./Components/images/Curd.png"
 import Speech from "./Components/images/speech.png"
-import Calc from "./Components/images/Screenshot (131).png"
 
 const CardsData = [
     {
@@ -41,14 +40,6 @@ const CardsData = [
         "id": 4,
         "title": "E-learning Website",
         image: Ele
-        ,
-    },
-    {
-        href: "https://mohamedahmed2023.github.io/Calculator-App/",
-        type: "JS",
-        "id": 13,
-        "title": "Calculator App",
-        image: Calc
         ,
     },
 
