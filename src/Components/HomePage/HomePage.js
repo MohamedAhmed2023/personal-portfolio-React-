@@ -1,5 +1,5 @@
 import Mohamed from "../images/Mohamed.jpg"
-import CV from "./MyCV/mohamed Ahmed CV.pdf"
+import CV from "./MyCV/Mohamed Alkomali Cv.pdf"
 import "./HomePage.css"
 import HeadingText from "../HeadingText";
 function HomePage() {
