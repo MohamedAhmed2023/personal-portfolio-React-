@@ -13,8 +13,8 @@ import Speech from "./Components/images/speech.png"
 
 const CardsData = [
     {
-        href: "https://mohamedahmed2023.github.io/sinai-university/",
-        type: "HTML & CSS",
+        href: "https://mohamedahmed2023.github.io/sinai-university-website/",
+        type: "JS",
         "id": 1,
         "title": "sinai university",
         image: Sinai,
