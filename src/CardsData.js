@@ -10,6 +10,8 @@ import Todo from "./Components/images/todo.png"
 import Qr from "./Components/images/QR.png"
 import Crud from "./Components/images/Curd.png"
 import Speech from "./Components/images/speech.png"
+import intr from "./Components/images/Interior Design.png"
+import login from "./Components/images/Screenshot (133).png"
 
 const CardsData = [
     {
@@ -25,6 +27,20 @@ const CardsData = [
         "id": 2,
         "title": "Bootstrap Website",
         image: Log,
+    },
+    {
+        href: "https://mohamedahmed2023.github.io/Interior-Design/",
+        type: "HTML & CSS",
+        "id": 22,
+        "title": "Interior Design",
+        image: intr,
+    },
+    {
+        href: "https://mohamedahmed2023.github.io/intern2grow-login-page/",
+        type: "HTML & CSS",
+        "id": 23,
+        "title": "Login Page",
+        image: login,
     },
     {
         href: "https://mohamedahmed2023.github.io/Islamic-website/index.html",
