@@ -63,10 +63,11 @@
 }
 
 .experience-left img, .experience-right img {
-    width: 200px;
+    width: 400px;
+    height: 250px;
     color: #fff;
-    margin-left: 50px;
-    border-radius: 50%;
+    /* margin-left: 50px; */
+    /* border-radius: 20px; */
 }
 
 @media(max-width:992px) {
@@ -80,6 +81,7 @@
         width: 90%;
         margin: auto;
         text-align: start;
+        padding: 10px 20px;
     }
 
 
@@ -96,10 +98,10 @@
     }
 
     .experience-left img, .experience-right img {
-        width: 200px;
+        width: 100%;
         color: #fff;
         margin-left: 0;
-        margin-top: 50px;
+        margin-top: 10px;
     }
 
 }
