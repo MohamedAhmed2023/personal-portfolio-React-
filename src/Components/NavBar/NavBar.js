@@ -25,6 +25,9 @@ function NavBar() {
                                 <a class="nav-link active" aria-current="page" href="#AboutSection">About</a>
                             </li>
                             <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#experiencesection">experience</a>
+                            </li>
+                            <li class="nav-item">
                                 <a class="nav-link active" aria-current="page" href="#ProjectSection">Projects</a>
                             </li>
                             <li class="nav-item">

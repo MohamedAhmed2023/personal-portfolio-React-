@@ -9,7 +9,7 @@ function Experience() {
     return (
         <>
             <HeadingText title="Experience" />
-            <div className="experience">
+            <div id="experiencesection" className="experience">
                 <div className="experience-left">
                     <img src={nile} alt=""></img>
                     <h2>Front end developer</h2>

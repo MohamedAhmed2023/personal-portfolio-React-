@@ -7,7 +7,7 @@
 }
 
 .navbar ul {
-    margin-left: 500px;
+    margin-left: 450px;
 }
 
 .NavLogo {
@@ -51,12 +51,16 @@
 }
 
 .navbar-toggler img {
-    width: 35px;
+    width: 30px;
 }
 
 
 .navbar-brand {
     font-style: italic;
+}
+
+.navbar-toggler {
+    color: #FFF !important;
 }
 
 /* responsive mobile */
