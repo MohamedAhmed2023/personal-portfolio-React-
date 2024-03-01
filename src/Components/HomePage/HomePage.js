@@ -1,6 +1,7 @@
 import Mohamed from "../images/Mohamed.jpg"
 import CV from "./MyCV/Mohamed Alkomali Cv.pdf"
 import "./HomePage.css"
+import Experience from "../experience/Experience";
 import HeadingText from "../HeadingText";
 function HomePage() {
     return (
@@ -21,7 +22,7 @@ function HomePage() {
                     <div id="AboutSection" className="about-content">
                         <div className="left-content">
                             <h2>Get to know me!</h2>
-                            <p>I'm front end developer with one year experience creating website using ReactJs I have ability to write the
+                            <p>I'm front end developer creating website using ReactJs I have ability to write the
                                 clean code using JavaScript and responsive UI using ReactJs , understand HTML, CSS and Javascript, ReactJs
                                 extremely desire for challenging projects as well as stronge ability to commuicate and work in team effectively
                                 , I'm looking for a job where my educational background, experience and skills can be fully utilized and
@@ -38,7 +39,7 @@ function HomePage() {
                                 <div>React js</div>
                                 <div>RESTFUL API</div>
                                 <div>MongoDB</div>
-                                <div>GIT</div>
+                                <div>GraphQl API</div>
                                 <div>GIT\Hub</div>
                                 <div>presentation skills</div>
                                 <div>Responsive Web Design</div>
@@ -49,11 +50,12 @@ function HomePage() {
                         </div>
                     </div>
                 </div>
+                <Experience />
                 <HeadingText title="Projects" />
                 <div id="ProjectSection" className=" container">
                 </div>
-            </div >
 
+            </div >
         </>
     )
 }

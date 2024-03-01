@@ -1,8 +1,13 @@
 .navbar {
     padding: 1rem 5rem !important;
-    background-color: white !important;
+    background-color: transparent !important;
+    color: #fff !important;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     font-family: 'Kanit', sans-serif;
+}
+
+.navbar ul {
+    margin-left: 500px;
 }
 
 .NavLogo {
@@ -20,46 +25,64 @@
     font-weight: bold;
     margin-top: 8px;
     letter-spacing: 1px;
+    color: #fff;
 }
 
 .nav-item a {
     font-size: 17px;
     font-weight: 600;
+    color: #fff !important;
 }
 
-.navbar {
-    background-color: transparent;
-    /* Default style */
-}
+
 
 .navbar.scrolled {
-    background-color: #333;
+    background-color: #fff;
     /* Style when scrolled */
 }
 
+.icon-navbar {
+    display: flex;
+}
+
+.icon-navbar img {
+    width: 30px;
+    margin: 0 10px;
+}
+
+.navbar-toggler img {
+    width: 20px;
+}
+
+
+.navbar-brand {
+    font-style: italic;
+}
 
 /* responsive mobile */
 
 @media (max-width:992px) {
     .navbar {
         padding: 10px !important;
-        background-color: #fff !important;
-        position: fixed;
         text-align: start;
-
+        width: 100%;
     }
 
     .navbar ul {
         margin-top: 10px;
+        margin-left: 0px;
     }
 
     .navbar ul li {
-        border-bottom: 1px solid #ccc;
+        border-bottom: 1px solid #fff;
         padding: 5px;
+        color: #fff !important;
+        margin: 5px 0;
     }
 
     .navbar ul li a {
         font-size: 13px;
+        color: #fff !important;
     }
 
     .NavLogo img {
@@ -73,13 +96,12 @@
 
     .navbar-toggler-icon {
         width: 20px !important;
-        color: black;
+        color: #fff;
         padding: 10px;
+        border: #fff 1px solid;
     }
-}
 
-@media (min-width:992px) {
-    .navbar {
-        width: 100%;
+    .nav-item a {
+        color: #fff !important;
     }
 }
