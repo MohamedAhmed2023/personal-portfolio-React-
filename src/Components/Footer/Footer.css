@@ -16,13 +16,15 @@
     margin-top: 30px;
 }
 
-.icon {
-    margin-top: 30px;
+.icon-Footer {
+    margin-top: 35px;
 }
 
-.icon img {
+.icon-Footer a {
     width: 30px;
     margin: 0 10px;
+    font-size: 25px;
+    color: #fff;
 }
 
 .lower-Footer {

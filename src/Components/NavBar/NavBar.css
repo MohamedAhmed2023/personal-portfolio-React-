@@ -1,8 +1,8 @@
 .navbar {
     padding: 1rem 5rem !important;
-    background-color: transparent !important;
+    background-color: #022138 !important;
     color: #fff !important;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
     font-family: 'Kanit', sans-serif;
 }
 
@@ -15,16 +15,20 @@
     gap: 20px;
 }
 
-.NavLogo img {
-    width: 50px;
-    border-radius: 50%;
-}
-
 .NavLogo a {
     font-size: 17px;
     font-weight: bold;
     margin-top: 8px;
     letter-spacing: 1px;
+    color: #fff;
+    font-weight: 700;
+    font-style: italic;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.NavLogo a:hover {
     color: #fff;
 }
 
@@ -38,29 +42,22 @@
 
 .navbar.scrolled {
     background-color: #fff;
-    /* Style when scrolled */
 }
 
 .icon-navbar {
     display: flex;
 }
 
-.icon-navbar img {
-    width: 30px;
+.icon-navbar a {
     margin: 0 10px;
+    color: #fff !important;
+    font-size: 20px;
 }
 
-.navbar-toggler img {
-    width: 30px;
-}
-
-
-.navbar-brand {
-    font-style: italic;
-}
 
 .navbar-toggler {
     color: #FFF !important;
+    font-size: 20px;
 }
 
 /* responsive mobile */

@@ -1,8 +1,8 @@
 import "./Footer.css"
-import Git from "./png/github-ico.png"
-import Link from "./png/linkedin-ico.png"
-import tew from "./png/twitter-ico.png"
-import ins from "./png/yt-ico.png"
+import FacebookIcon from '@mui/icons-material/Facebook';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import InstagramIcon from '@mui/icons-material/Instagram';
 function Footer() {
     return (
         <>
@@ -14,16 +14,19 @@ function Footer() {
                 </div>
                 <div className="right-Footer">
                     <h3>SOCIAL</h3>
-                    <div className="icon">
+                    <div className="icon-Footer">
                         <a href="https://github.com/MohamedAhmed2023">
-                            <img href="https://github.com/MohamedAhmed2023" src={Git} alt="">
-                            </img>
+                            <GitHubIcon />
                         </a>
                         <a href="https://www.linkedin.com/in/mohamed-alkomali/" alt="">
-                            <img src={Link} alt=""></img>
+                            <LinkedInIcon />
                         </a>
-                        <img src={tew} alt=""></img>
-                        <img src={ins} alt=""></img>
+                        <a href="https://www.facebook.com/profile.php?id=100007754079369" alt="">
+                            <FacebookIcon />
+                        </a>
+                        <a href="https://www.instagram.com/mohamed_alkomali/" alt="">
+                            <InstagramIcon />
+                        </a>
                     </div>
                 </div>
             </div >
