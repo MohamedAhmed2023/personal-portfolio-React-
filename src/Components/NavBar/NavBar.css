@@ -7,7 +7,7 @@
 }
 
 .navbar ul {
-    margin-left: 450px;
+    margin-left: 250px;
 }
 
 .NavLogo {
@@ -104,5 +104,9 @@
 
     .nav-item a {
         color: #fff !important;
+    }
+
+    .icon-navbar {
+        display: none;
     }
 }

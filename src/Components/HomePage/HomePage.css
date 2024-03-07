@@ -121,6 +121,13 @@
     cursor: pointer;
 }
 
+.icon-Home a {
+    color: #fff;
+    font-size: 25px;
+    margin: 0 10px;
+    display: none;
+}
+
 /* responsive mobile */
 
 @media(max-width:992px) {
@@ -135,7 +142,7 @@
     .home-content {
         width: 90%;
         margin: auto;
-        text-align: center;
+        text-align: start;
     }
 
     .container-home img {
@@ -149,7 +156,8 @@
 
     .home-content p {
         font-size: 18px;
-        text-align: center;
+        text-align: start;
+        margin: 10px 0;
     }
 
     .about-content {
@@ -178,6 +186,12 @@
     .left-content p {
         font-size: 15px;
         letter-spacing: 1px;
+    }
+
+    .icon-Home a {
+        color: #fff;
+        margin: 5px 10px;
+        display: inline-block;
     }
 
 }

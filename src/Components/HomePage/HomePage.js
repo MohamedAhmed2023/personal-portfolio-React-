@@ -4,6 +4,10 @@ import "./HomePage.css"
 import Experience from "../experience/Experience";
 import HeadingText from "../HeadingText";
 import 'animate.css/animate.min.css';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import InstagramIcon from '@mui/icons-material/Instagram';
 
 function HomePage() {
     return (
@@ -14,6 +18,20 @@ function HomePage() {
                         <h2>Mohamed Alkomali</h2>
                         <p>Front End Developer And UI\UX Designer Student at Sinai University, Faculty of Information Technology</p>
                         <a href={CV} download="Mohamed AlkomaliCv">
+                            <div className="icon-Home">
+                                <a href="https://github.com/MohamedAhmed2023">
+                                    <GitHubIcon />
+                                </a>
+                                <a href="https://www.linkedin.com/in/mohamed-alkomali/" alt="">
+                                    <LinkedInIcon />
+                                </a>
+                                <a href="https://www.facebook.com/profile.php?id=100007754079369" alt="">
+                                    <FacebookIcon />
+                                </a>
+                                <a href="https://www.instagram.com/mohamed_alkomali/" alt="">
+                                    <InstagramIcon />
+                                </a>
+                            </div>
                             <button className="home-Btn" type="button">Download My Cv</button>
                         </a>
                     </div>
