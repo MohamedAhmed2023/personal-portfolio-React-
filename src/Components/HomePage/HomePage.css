@@ -142,7 +142,7 @@
     .home-content {
         width: 90%;
         margin: auto;
-        text-align: start;
+        text-align: center;
     }
 
     .container-home img {
@@ -156,7 +156,7 @@
 
     .home-content p {
         font-size: 18px;
-        text-align: start;
+        text-align: center;
         margin: 10px 0;
     }
 
