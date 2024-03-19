@@ -13,6 +13,7 @@ import intr from "./Components/images/Interior Design.png"
 import login from "./Components/images/Screenshot (133).png"
 import Figma from "./Components/images/Figmaland.png"
 import weather from "./Components/images/weather.png"
+import quiz from "./Components/images/quiz.png"
 
 const CardsData = [
     {
@@ -31,6 +32,14 @@ const CardsData = [
             "Crud Operations"
         ,
         image: Crud
+        ,
+    },
+    {
+        href: "https://mohamedahmed2023.github.io/E-learning-Website/",
+        type: "Pure",
+        "id": 6,
+        "title": "E-learning Website",
+        image: Ele
         ,
     },
     {
@@ -54,19 +63,18 @@ const CardsData = [
         ,
     },
     {
+        href: "https://mohamedahmed2023.github.io/Quiz-App/",
+        type: "Pure",
+        "id": 19,
+        "title": "Quiz App",
+        image: quiz,
+    },
+    {
         href: "https://weather-app-nodejs-2.onrender.com",
         type: "NodeJs",
         "id": 5,
         "title": "Weather App",
         image: weather,
-    },
-    {
-        href: "https://mohamedahmed2023.github.io/E-learning-Website/",
-        type: "Pure",
-        "id": 6,
-        "title": "E-learning Website",
-        image: Ele
-        ,
     },
     {
         href: "https://mohamedahmed2023.github.io/sina-university/",
