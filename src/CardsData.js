@@ -35,7 +35,7 @@ const CardsData = [
         ,
     },
     {
-        href: "https://mohamedahmed2023.github.io/E-learning-Website/",
+        href: "https://mohamedahmed2023.github.io/web-school-E-Learning-website-/",
         type: "Pure",
         "id": 6,
         "title": "E-learning Website",
