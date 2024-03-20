@@ -1,5 +1,5 @@
 import Mohamed from "../images/Programming-pana.png"
-import CV from "./MyCV/Mohamed Alkomali Cv.pdf"
+import CV from "./MyCV/Mohamed-Ahmed-Ali-Resume.pdf"
 import "./HomePage.css"
 import Experience from "../experience/Experience";
 import HeadingText from "../HeadingText";
