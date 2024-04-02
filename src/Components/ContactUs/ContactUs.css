@@ -21,6 +21,7 @@ form {
     border-radius: 16px;
     background-size: 200% 100%;
     animation: gradient 3s ease infinite;
+    margin: auto;
 }
 
 @keyframes gradient {
