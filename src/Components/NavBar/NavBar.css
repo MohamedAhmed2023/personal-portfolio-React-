@@ -7,8 +7,9 @@
 }
 
 .navbar ul {
-    margin-left: 250px;
+    margin: auto;
 }
+
 
 .NavLogo {
     display: flex;
