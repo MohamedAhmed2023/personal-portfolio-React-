@@ -29,7 +29,7 @@ function App() {
         />
         <Card item={item} />
         <div className="container-Contact us">
-          <HeadingText title="Contact us" />
+          <HeadingText title="Contact me" />
           <ContactUs />
         </div>
         <div className='container-Footer'>
