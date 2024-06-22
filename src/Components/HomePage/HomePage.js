@@ -16,7 +16,7 @@ function HomePage() {
                 <div className="container-home animate__animated animate__fadeInLeft animate__slow">
                     <div className="home-content">
                         <h2>Mohamed Alkomali</h2>
-                        <p>software engineer, and I work as a frontend developer graduated from Sinai University, Faculty of Information Technology</p>
+                        <p>Software Engineer, And I Work as A Frontend Developer Graduated From Sinai University, Faculty Of Information Technology</p>
                         <a href={CV} download="Mohamed AlkomaliCv">
                             <div className="icon-Home">
                                 <a href="https://github.com/MohamedAhmed2023">
