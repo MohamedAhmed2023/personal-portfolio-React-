@@ -1,4 +1,4 @@
-import Mohamed from "../images/Programming-pana.png"
+import Mohamed from "../images/Mohamed.jpg"
 import CV from "./MyCV/Mohamed-Ahmed-Ali-Resume.pdf"
 import "./HomePage.css"
 import Experience from "../experience/Experience";
@@ -16,7 +16,7 @@ function HomePage() {
                 <div className="container-home animate__animated animate__fadeInLeft animate__slow">
                     <div className="home-content">
                         <h2>Mohamed Alkomali</h2>
-                        <p>Front End Developer And UI\UX Designer Student at Sinai University, Faculty of Information Technology</p>
+                        <p>software engineer, and I work as a frontend developer graduated from Sinai University, Faculty of Information Technology</p>
                         <a href={CV} download="Mohamed AlkomaliCv">
                             <div className="icon-Home">
                                 <a href="https://github.com/MohamedAhmed2023">

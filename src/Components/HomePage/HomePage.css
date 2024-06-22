@@ -17,6 +17,8 @@
     width: 700px;
     height: 400px;
     text-align: start;
+    border-radius: 50%;
+    border: 2px solid #fff;
 }
 
 .home-content h2 {
