@@ -5,12 +5,20 @@ import nile from "../images/dpe.jpg"
 import dpe from "../images/nile.jpg"
 import DpeCert from "./certificate/Front-end-Bootcamp_Front-end-Web-Development-BootCamp_Mohamed-ahmed.pdf"
 import NileCert from "./certificate/Mohamed Ahmed Ali_DPE Certificate (1).pdf"
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 function Experience() {
+    useEffect(() => {
+        AOS.init({
+            duration: 1200,
+        });
+    }, []);
     return (
         <>
             <HeadingText title="Experience" />
             <div id="experiencesection" className="experience">
-                <div className="experience-left">
+                <div data-aos="flip-right" className="experience-left">
                     <img src={nile} alt=""></img>
                     <h2>Front end developer</h2>
                     <span>2023 Nov – 2024 Feb</span> <p>Nile
@@ -22,7 +30,7 @@ function Experience() {
                         <button className="cert-btn" type="button">Certificate</button>
                     </a>
                 </div>
-                <div className="experience-right">
+                <div data-aos="flip-left" className="experience-right">
                     <img src={dpe} alt=""></img>
                     <h2>Front end developer</h2>
                     <span>2023 Feb – 2023 May</span>

@@ -8,12 +8,21 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function HomePage() {
+    useEffect(() => {
+        AOS.init({
+            duration: 1200,
+        });
+    }, []);
+
     return (
         <>
             <div className="container">
-                <div className="container-home animate__animated animate__fadeInLeft animate__slow">
+                <div data-aos="fade-up" className="container-home">
                     <div className="home-content">
                         <h2>Mohamed Alkomali</h2>
                         <p>Software Engineer, And I Work as A Frontend Developer Graduated From Sinai University, Faculty Of Information Technology</p>
@@ -40,7 +49,7 @@ function HomePage() {
                 <div className="container">
                     <HeadingText title="About Me" discribions="Front End Developer And UI\UX Designer Student at Sinai University, Faculty of Information Technology" />
                     <div id="AboutSection" className="about-content">
-                        <div className="left-content">
+                        <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" className=" left-content">
                             <h2>Get to know me!</h2>
                             <p>I'm front end developer creating website using ReactJs I have ability to write the
                                 clean code using JavaScript and responsive UI using ReactJs , understand HTML, CSS and Javascript, ReactJs
@@ -49,7 +58,7 @@ function HomePage() {
                                 enhanced</p>
                             <a href="#contactSection"><button type="button">Contact</button></a>
                         </div>
-                        <div className="right-content">
+                        <div data-aos="fade-left" data-aos-offset="200" data-aos-easing="ease-in-sine" className="right-content">
                             <h2>My Skills</h2>
                             <div className="perant-skills" >
                                 <div>HTML5</div>

@@ -2,8 +2,16 @@ import React from 'react';
 import emailjs from 'emailjs-com';
 import Swal from 'sweetalert2';
 import "./ContactUs.css";
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function ContactUs() {
+    useEffect(() => {
+        AOS.init({
+            duration: 1200,
+        });
+    }, []);
     const handleSubmit = (e) => {
         e.preventDefault();
 
@@ -27,7 +35,7 @@ function ContactUs() {
     };
 
     return (
-        <div id="contactSection">
+        <div data-aos="zoom-in" id="contactSection">
             <div className="form-container">
                 <form className="form" onSubmit={handleSubmit}>
                     <div className="form-group">

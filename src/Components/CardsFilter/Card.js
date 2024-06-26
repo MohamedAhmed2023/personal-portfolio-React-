@@ -1,9 +1,17 @@
 import React from "react";
 import "./CardFilter.css"
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 function Card({ item }) {
+    useEffect(() => {
+        AOS.init({
+            duration: 1200,
+        });
+    }, []);
     return (
         <>
-            <div className="card-perant">
+            <div data-aos="fade-up" className="card-perant">
                 {item.map((val) => (
                     <div key={val.id} className="card">
                         <img src={val.image} alt="" className="card__image"></img>
