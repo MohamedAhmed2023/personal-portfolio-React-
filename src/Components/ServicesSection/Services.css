@@ -1,0 +1,42 @@
+.Services {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin: 100px 0;
+}
+
+.ServicesCard {
+    color: #fff;
+    background-color: #051e33;
+    padding: 20px 40px;
+    border: 2px #41EAD4 solid;
+    border-radius: 10px;
+}
+
+.ServicesCard img {
+    margin: 10px 0;
+    width: 70px;
+}
+
+.ServicesCard p {
+    margin: 20px 0;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.ServicesCard p {
+    margin: 20px 0;
+    text-align: center;
+}
+
+
+
+@media (max-width:992px) {
+    .Services {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 90%;
+        margin: auto;
+    }
+}

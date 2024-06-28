@@ -11,6 +11,7 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Services from "../ServicesSection/Services"
 
 function HomePage() {
     useEffect(() => {
@@ -49,7 +50,7 @@ function HomePage() {
                 <div className="container">
                     <HeadingText title="About Me" discribions="Front End Developer And UI\UX Designer Student at Sinai University, Faculty of Information Technology" />
                     <div id="AboutSection" className="about-content">
-                        <div data-aos="fade-right" className=" left-content">
+                        <div data-aos="fade-up-right" className=" left-content">
                             <h2>Get to know me!</h2>
                             <p>I'm front end developer creating website using ReactJs I have ability to write the
                                 clean code using JavaScript and responsive UI using ReactJs , understand HTML, CSS and Javascript, ReactJs
@@ -58,7 +59,7 @@ function HomePage() {
                                 enhanced</p>
                             <a href="#contactSection"><button type="button">Contact</button></a>
                         </div>
-                        <div data-aos="fade-left" className="right-content">
+                        <div data-aos="zoom-in-up" className="right-content">
                             <h2>My Skills</h2>
                             <div className="perant-skills" >
                                 <div>HTML5</div>
@@ -79,6 +80,7 @@ function HomePage() {
                         </div>
                     </div>
                 </div>
+                <Services />
                 <Experience />
                 <HeadingText title="Projects" />
                 <div id="ProjectSection" className=" container">
