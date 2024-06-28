@@ -4,6 +4,7 @@
     color: #fff !important;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
     font-family: 'Kanit', sans-serif;
+    z-index: 100000000000;
 }
 
 .navbar ul {
@@ -68,6 +69,7 @@
         padding: 10px !important;
         text-align: start;
         width: 100%;
+        z-index: 100000000000;
     }
 
     .navbar ul {
