@@ -1,4 +1,4 @@
-import Mohamed from "../images/Mohamed.jpg"
+import Mohamed from "../images/Code typing-amico.png"
 import CV from "./MyCV/Mohamed Ahmed Ali.pdf"
 import "./HomePage.css"
 import Experience from "../experience/Experience";
