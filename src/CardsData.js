@@ -14,6 +14,7 @@ import login from "./Components/images/Screenshot (133).png"
 import Figma from "./Components/images/Figmaland.png"
 import weather from "./Components/images/weather.png"
 import quiz from "./Components/images/quiz.png"
+import NotesApp from "./Components/images/NOTESAPP.png"
 
 const CardsData = [
     {
@@ -53,6 +54,14 @@ const CardsData = [
         ,
     },
     {
+        href: "https://mohamedahmed2023.github.io/sina-university/",
+        type: "Pure",
+        "id": 7,
+        "title": "sinai university",
+        image: Sinai,
+    },
+
+    {
         href: "https://figmalandwebsite.netlify.app/",
         type: "React",
         "id": 4,
@@ -70,20 +79,19 @@ const CardsData = [
         image: quiz,
     },
     {
+        href: "https://alkomalinotesapp.netlify.app/",
+        type: "React",
+        "id": 16,
+        "title": "Notes App",
+        image: NotesApp,
+    },
+    {
         href: "https://weather-app-nodejs-2.onrender.com",
         type: "NodeJs",
         "id": 5,
         "title": "Weather App",
         image: weather,
     },
-    {
-        href: "https://mohamedahmed2023.github.io/sina-university/",
-        type: "Pure",
-        "id": 7,
-        "title": "sinai university",
-        image: Sinai,
-    },
-
 
     {
         href: "https://mohamedahmed2023.github.io/Bootstrap-website/",

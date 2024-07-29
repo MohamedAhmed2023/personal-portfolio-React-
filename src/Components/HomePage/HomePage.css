@@ -14,10 +14,10 @@
 }
 
 .container-home img {
-    width: 700px;
-    height: 400px;
+    width: auto;
+    height: 450px;
     /* border-radius: 50%;
-    border: 2px solid #00C9E0; */
+    border: 2px solid #fff; */
 }
 
 .home-content h2 {
@@ -147,7 +147,7 @@
     }
 
     .container-home img {
-        width: 300px;
+        width: 90%;
         margin: auto;
         margin-top: 50px;
     }
@@ -158,7 +158,6 @@
 
     .home-content p {
         font-size: 18px;
-
         text-align: center;
         margin: 10px 0;
     }
