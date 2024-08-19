@@ -1,3 +1,15 @@
+/* Global Font Settings */
+html {
+    font-size: 16px;
+    /* Base font size for the root */
+}
+
+body {
+    font-family: 'Kanit', sans-serif;
+    /* Ensure consistent font usage */
+}
+
+/* Container Home Section */
 .container-home {
     display: flex;
     justify-content: space-between;
@@ -22,22 +34,24 @@
 
 .home-content h2 {
     color: #ffffff;
-    font-size: 50px;
+    font-size: 3rem;
+    /* Default font size for large screens */
     margin: 20px 0;
 }
 
 .home-content p {
     color: #fff !important;
     text-align: start;
-    font-size: 20px;
+    font-size: 1.25rem;
+    /* Default font size for large screens */
     margin: 20px 0;
     /* width: 50%;
     margin: auto; */
 }
 
 .home-content button {
-    padding: 12px 30px;
-    font-size: 20px;
+    padding: 0.75rem 1.875rem;
+    font-size: 1.25rem;
     font-weight: bold;
     background: #fff;
     color: #02223B;
@@ -55,13 +69,13 @@
     outline: 2px solid #00C9E0;
 }
 
-/* ABOUT section */
-
+/* ABOUT Section */
 .about-content {
     display: flex;
     font-family: 'Kanit', sans-serif;
     justify-content: space-between;
-    gap: 70px;
+    gap: 4.375rem;
+    /* 70px converted to rem */
     margin-top: 100px;
     margin: 100px 0;
 }
@@ -78,29 +92,26 @@
 
 .left-content p {
     margin: 20px 0;
-    font-size: 20px;
+    font-size: 1.25rem;
+    /* Default font size for large screens */
     letter-spacing: 1px;
 }
 
 .left-content button {
-    padding: 10px 34px;
+    padding: 0.625rem 2.125rem;
     background-color: #fff;
     color: #02223B;
-    font-size: 17px;
+    font-size: 1.0625rem;
+    /* Default font size for large screens */
     font-weight: bold;
     border-radius: 10px;
     border: none;
 }
 
-
-/* right-content */
-
-
+/* Right-content */
 .right-content {
     text-align: start;
 }
-
-
 
 .perant-skills {
     display: flex;
@@ -108,7 +119,6 @@
     width: 600px;
     margin-top: 10px;
     margin-left: -10px;
-
 }
 
 .perant-skills div {
@@ -124,14 +134,13 @@
 
 .icon-Home a {
     color: #fff;
-    font-size: 25px;
+    font-size: 1.5625rem;
     margin: 0 10px;
     display: none;
 }
 
-/* responsive mobile */
-
-@media(max-width:992px) {
+/* Responsive Mobile */
+@media (max-width: 992px) {
     .container-home {
         height: 100vh;
         display: flex;
@@ -153,11 +162,12 @@
     }
 
     .home-content h2 {
-        font-size: 30px;
+        font-size: 1.875rem;
+
     }
 
     .home-content p {
-        font-size: 18px;
+        font-size: 1.125rem;
         text-align: center;
         margin: 10px 0;
     }
@@ -181,12 +191,12 @@
     }
 
     .home-content button, .left-content button {
-        padding: 12px 24px;
-        font-size: 17px;
+        padding: 0.75rem 1.5rem;
+        font-size: 1.0625rem;
     }
 
     .left-content p {
-        font-size: 15px;
+        font-size: 0.9375rem;
         letter-spacing: 1px;
     }
 
@@ -195,5 +205,27 @@
         margin: 5px 10px;
         display: inline-block;
     }
+}
 
+@media (max-width: 768px) {
+    .home-content h2 {
+        font-size: 1.5rem;
+    }
+
+    .home-content p {
+        font-size: 1rem;
+    }
+
+    .left-content p {
+        font-size: 0.875rem;
+    }
+
+    .home-content button, .left-content button {
+        padding: 0.5rem 1rem;
+        font-size: 0.9375rem;
+    }
+
+    .icon-Home a {
+        font-size: 1.25rem;
+    }
 }
