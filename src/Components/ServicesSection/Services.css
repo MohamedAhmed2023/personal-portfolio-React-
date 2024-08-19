@@ -11,6 +11,8 @@
     padding: 20px 40px;
     border: 2px #41EAD4 solid;
     border-radius: 10px;
+    letter-spacing: 1px;
+
 }
 
 .ServicesCard img {
@@ -18,25 +20,59 @@
     width: 70px;
 }
 
-.ServicesCard p {
-    margin: 20px 0;
-    text-align: center;
-    letter-spacing: 1px;
+.ServicesCard h2 {
+    text-align: start;
+    margin-top: 20px;
 }
 
 .ServicesCard p {
     margin: 20px 0;
-    text-align: center;
+    font-size: 17px;
+    /* letter-spacing: 2px; */
+    text-align: start;
 }
 
-
-
-@media (max-width:992px) {
+/* Responsive Design for Medium Screens */
+@media (max-width: 992px) {
     .Services {
-        display: flex;
         flex-direction: column;
         gap: 20px;
         width: 90%;
         margin: auto;
+    }
+
+    .ServicesCard {
+        padding: 20px;
+    }
+}
+
+/* Responsive Design for Small Screens */
+@media (max-width: 768px) {
+    .ServicesCard {
+        padding: 15px 30px;
+    }
+
+    .ServicesCard img {
+        width: 60px;
+    }
+
+    .ServicesCard p {
+        font-size: 0.875rem;
+        /* 14px */
+    }
+}
+
+@media (max-width: 576px) {
+    .ServicesCard {
+        padding: 10px 20px;
+    }
+
+    .ServicesCard img {
+        width: 50px;
+    }
+
+    .ServicesCard p {
+        font-size: 0.75rem;
+        /* 12px */
     }
 }

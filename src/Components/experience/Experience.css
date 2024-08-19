@@ -6,6 +6,8 @@
 
 .experience h2 {
     margin: 15px 0;
+    font-size: 2rem;
+    /* 32px - Default for large screens */
 }
 
 .cert-btn {
@@ -13,7 +15,8 @@
     padding: 10px 34px;
     background-color: #fff;
     color: #02223B;
-    font-size: 17px;
+    font-size: 1.0625rem;
+    /* 17px */
     font-weight: bold;
     border-radius: 10px;
     border: none;
@@ -23,10 +26,8 @@
 .cert-btn:hover {
     background-color: transparent;
     color: #fff;
-    outline: 1px solid#fff;
+    outline: 1px solid #fff;
 }
-
-
 
 .experience-left, .experience-right {
     text-align: start;
@@ -38,27 +39,14 @@
     box-sizing: border-box;
     border-radius: 16px;
     background-size: 200% 100%;
-    /* animation: gradient 3s ease infinite; */
-}
-
-@keyframes gradient {
-    0% {
-        background-position: 0% 50%;
-    }
-
-    50% {
-        background-position: 50% 80%;
-    }
-
-    100% {
-        background-position: 80% 100%;
-    }
 }
 
 .experience-left p, .experience-right p {
     width: 400px;
     text-align: start;
     margin: 15px 0;
+    font-size: 1rem;
+    /* 16px */
     letter-spacing: 1px;
 }
 
@@ -66,13 +54,11 @@
     width: 400px;
     height: 300px;
     color: #fff;
-    /* margin-left: 50px; */
-    /* border-radius: 20px; */
 }
 
+/* Responsive Design for Medium Screens */
 @media(max-width:992px) {
     .experience {
-        display: flex;
         flex-direction: column;
         gap: 20px;
     }
@@ -84,31 +70,64 @@
         padding: 10px 20px;
     }
 
-
-    .experience-left p, .experience-right p {
-        text-align: start;
-        letter-spacing: 1px;
-        width: 100%;
-        margin: auto;
+    .experience h2 {
+        font-size: 1.75rem;
+        /* 28px */
     }
 
-    .experience-left span, .experience-right span {
-        text-align: start;
-
+    .experience-left p, .experience-right p {
+        width: 100%;
+        font-size: 0.9375rem;
+        /* 15px */
     }
 
     .experience-left img, .experience-right img {
         width: 100%;
         height: 190px;
-        color: #fff;
         margin-left: 0;
         margin-top: 10px;
     }
 
     .cert-btn {
         padding: 12px 24px;
-        font-size: 15px;
+        font-size: 0.9375rem;
+        /* 15px */
+    }
+}
 
+/* Responsive Design for Small Screens */
+@media(max-width:768px) {
+    .experience h2 {
+        font-size: 1.5rem;
+        /* 24px */
     }
 
+    .experience-left p, .experience-right p {
+        font-size: 0.875rem;
+        /* 14px */
+    }
+
+    .cert-btn {
+        padding: 10px 20px;
+        font-size: 0.875rem;
+        /* 14px */
+    }
+}
+
+@media(max-width:576px) {
+    .experience h2 {
+        font-size: 1.25rem;
+        /* 20px */
+    }
+
+    .experience-left p, .experience-right p {
+        font-size: 0.8125rem;
+        /* 13px */
+    }
+
+    .cert-btn {
+        padding: 8px 16px;
+        font-size: 0.8125rem;
+        /* 13px */
+    }
 }
