@@ -11,14 +11,14 @@
     margin: auto;
 }
 
-
 .NavLogo {
     display: flex;
     gap: 20px;
 }
 
 .NavLogo a {
-    font-size: 17px;
+    font-size: 1.2rem;
+    /* Adjusted font size */
     font-weight: bold;
     margin-top: 8px;
     letter-spacing: 1px;
@@ -35,12 +35,11 @@
 }
 
 .nav-item a {
-    font-size: 17px;
+    font-size: 1rem;
+    /* Adjusted font size */
     font-weight: 600;
     color: #fff !important;
 }
-
-
 
 .navbar.scrolled {
     background-color: #fff;
@@ -53,18 +52,18 @@
 .icon-navbar a {
     margin: 0 10px;
     color: #fff !important;
-    font-size: 20px;
+    font-size: 1.25rem;
+    /* Adjusted font size */
 }
-
 
 .navbar-toggler {
     color: #FFF !important;
-    font-size: 20px;
+    font-size: 1.25rem;
+    /* Adjusted font size */
 }
 
 /* responsive mobile */
-
-@media (max-width:992px) {
+@media (max-width: 992px) {
     .navbar {
         padding: 10px !important;
         text-align: start;
@@ -87,7 +86,8 @@
     }
 
     .navbar ul li a {
-        font-size: 15px;
+        font-size: 0.9rem;
+        /* Adjusted font size */
         color: #022138 !important;
     }
 
@@ -97,7 +97,8 @@
     }
 
     .NavLogo a {
-        font-size: 18px;
+        font-size: 1rem;
+        /* Adjusted font size */
     }
 
     .navbar-toggler-icon {
