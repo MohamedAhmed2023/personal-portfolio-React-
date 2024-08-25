@@ -21,15 +21,14 @@
 }
 
 .ServicesCard h2 {
-    text-align: start;
+    text-align: start !important;
     margin-top: 20px;
 }
 
 .ServicesCard p {
     margin: 20px 0;
     font-size: 17px;
-    /* letter-spacing: 2px; */
-    text-align: start;
+    text-align: start !important;
 }
 
 /* Responsive Design for Medium Screens */
