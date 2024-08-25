@@ -73,21 +73,18 @@
 
     .navbar ul {
         margin-top: 10px;
-        margin-left: 0px;
         background-color: white;
-        padding: 10px 20px;
+        padding: 10px;
     }
 
     .navbar ul li {
         border-bottom: 1.5px solid #ccc;
-        padding: 5px;
+        padding: 2px 5px;
         color: #fff !important;
-        margin: 5px 0;
     }
 
     .navbar ul li a {
         font-size: 0.9rem;
-        /* Adjusted font size */
         color: #022138 !important;
     }
 
@@ -98,7 +95,6 @@
 
     .NavLogo a {
         font-size: 1rem;
-        /* Adjusted font size */
     }
 
     .navbar-toggler-icon {
