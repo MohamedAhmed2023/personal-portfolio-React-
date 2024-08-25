@@ -3,8 +3,6 @@ import "./Experience.css"
 import HeadingText from "../HeadingText";
 import nile from "../images/dpe.jpg"
 import dpe from "../images/nile.jpg"
-import DpeCert from "./certificate/Front-end-Bootcamp_Front-end-Web-Development-BootCamp_Mohamed-ahmed.pdf"
-import NileCert from "./certificate/Mohamed Ahmed Ali_DPE Certificate (1).pdf"
 import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -26,9 +24,6 @@ function Experience() {
                     <p>Front end developer internship provided by the NilePreneurs and Nile
                         University throughout the internship duration, we work develop Admin Panel
                         byReactJs for Nile University</p>
-                    {/* <a href={NileCert} download="Nile-Certificate">
-                        <button className="cert-btn" type="button">Certificate</button>
-                    </a> */}
                 </div>
                 <div data-aos="flip-left" className="experience-right">
                     <img src={dpe} alt=""></img>
