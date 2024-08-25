@@ -15,8 +15,18 @@ import Figma from "./Components/images/Figmaland.png"
 import weather from "./Components/images/weather.png"
 import quiz from "./Components/images/quiz.png"
 import NotesApp from "./Components/images/NOTESAPP.png"
+import Markting from "./Components/images/markting.png"
+import AR from "./Components/images/AR.png"
 
 const CardsData = [
+    {
+        href: "https://github.com/MohamedAhmed2023/Reality-Store",
+        type: "full stack",
+        "id": 1,
+        "title": "Full Stack E-Commerce With AR & 3D",
+        image:
+            AR,
+    },
     {
         href: "https://mohamedahmed2023.github.io/Islamic-website/index.html",
         type: "Pure",
@@ -24,29 +34,42 @@ const CardsData = [
         "title": "Islamic Website",
         image:
             Isl,
+        githubHref: "https://github.com/MohamedAhmed2023/Islamic-website/",
     },
     {
         href: "https://github.com/MohamedAhmed2023/Crud-operations-reactjs",
         type: "React",
-        "id": 1,
+        "id": 3,
         "title":
-            "Crud Operations"
+            "Crud System"
         ,
         image: Crud
         ,
+        githubHref: "https://github.com/MohamedAhmed2023/Crud-operations-reactjs",
     },
     {
         href: "https://mohamedahmed2023.github.io/web-school-E-Learning-website/",
+        githubHref: "https://github.com/MohamedAhmed2023/web-school-E-Learning-website",
         type: "Pure",
-        "id": 6,
+        "id": 4,
         "title": "E-learning Website",
         image: Ele
         ,
     },
     {
+        href: "https://mohamedahmed2023.github.io/MarketingAgency-Website/",
+        githubHref: "https://github.com/MohamedAhmed2023/Marketing-Agency-Website",
+        type: "Pure",
+        "id": 5,
+        "title": "Marketing Agency",
+        image: Markting
+        ,
+    },
+    {
         href: "https://e-commerce-dpe.netlify.app/",
+        githubHref: "https://github.com/MohamedAhmed2023/Simple-E-Commerce-ReactJs",
         type: "React",
-        "id": 3,
+        "id": 6,
         "title":
             "e-commerce website"
         ,
@@ -55,6 +78,7 @@ const CardsData = [
     },
     {
         href: "https://mohamedahmed2023.github.io/sina-university/",
+        githubHref: "https://github.com/MohamedAhmed2023/sina-university",
         type: "Pure",
         "id": 7,
         "title": "sinai university",
@@ -63,8 +87,9 @@ const CardsData = [
 
     {
         href: "https://figmalandwebsite.netlify.app/",
+        githubHref: "https://github.com/MohamedAhmed2023/Figma-Land-website",
         type: "React",
-        "id": 4,
+        "id": 8,
         "title":
             "Figma land website"
         ,
@@ -73,37 +98,42 @@ const CardsData = [
     },
     {
         href: "https://mohamedahmed2023.github.io/Quiz-App/",
+        githubHref: "https://github.com/MohamedAhmed2023/Quiz-App",
         type: "Pure",
-        "id": 19,
+        "id": 9,
         "title": "Quiz App",
         image: quiz,
     },
     {
         href: "https://alkomalinotesapp.netlify.app/",
+        githubHref: "https://github.com/MohamedAhmed2023/notes-app-by-react",
         type: "React",
-        "id": 16,
+        "id": 10,
         "title": "Notes App",
         image: NotesApp,
     },
     {
         href: "https://weather-app-nodejs-2.onrender.com",
-        type: "NodeJs",
-        "id": 5,
+        githubHref: "https://github.com/MohamedAhmed2023/Weather-App-nodeJs",
+        type: "full stack",
+        "id": 11,
         "title": "Weather App",
         image: weather,
     },
 
     {
         href: "https://mohamedahmed2023.github.io/Bootstrap-website/",
+        githubHref: "https://github.com/MohamedAhmed2023/Bootstrap-website",
         type: "Pure",
-        "id": 8,
+        "id": 12,
         "title": "Bootstrap Website",
         image: Log,
     },
     {
         href: "https://mohamedahmed2023.github.io/Text-To-Speech-Generator/",
+        githubHref: "https://github.com/MohamedAhmed2023/Text-To-Speech-Generator",
         type: "Pure",
-        "id": 9,
+        "id": 13,
         "title":
             "Text To Speech Generator"
         ,
@@ -113,47 +143,53 @@ const CardsData = [
 
     {
         href: "https://mohamedahmed2023.github.io/Live-Code-Editor/",
+        githubHref: "https://github.com/MohamedAhmed2023/Live-Code-Editor",
         type: "Pure",
-        "id": 10,
+        "id": 14,
         "title": "Live code editor",
         image: Liv
         ,
     },
     {
         href: "https://mohamedahmed2023.github.io/Javascript-Age-Calculator/",
+        githubHref: "",
         type: "Pure",
-        "id": 11,
+        "id": 15,
         "title": "Javascript Age Calculator",
         image: Age
         ,
     },
     {
         href: "https://mohamedahmed2023.github.io/Todo-App/",
+        githubHref: "",
         type: "Pure",
-        "id": 12,
+        "id": 16,
         "title": "Todo App",
         image: Todo
         ,
     },
     {
         href: "https://mohamedahmed2023.github.io/QR-Code-Generator/",
+        githubHref: "https://github.com/MohamedAhmed2023/QR-Code-Generator",
         type: "Pure",
-        "id": 13,
+        "id": 17,
         "title": "QR Code Generator",
         image: Qr
         ,
     },
     {
         href: "https://mohamedahmed2023.github.io/Interior-Design/",
+        githubHref: "",
         type: "Pure",
-        "id": 14,
+        "id": 18,
         "title": "Interior Design",
         image: intr,
     },
     {
         href: "https://mohamedahmed2023.github.io/intern2grow-login-page/",
+        githubHref: "",
         type: "Pure",
-        "id": 15,
+        "id": 19,
         "title": "Login Page",
         image: login,
     },

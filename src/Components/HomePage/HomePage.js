@@ -26,7 +26,7 @@ function HomePage() {
                 <div data-aos="fade-up" className="container-home">
                     <div className="home-content">
                         <h2>Mohamed Alkomali</h2>
-                        <p>Software Engineer, And I Work as A Frontend Developer Graduated From Sinai University, Faculty Of Information Technology</p>
+                        <p>Software Engineer, And I Work as A Frontend Developer Graduated From Sinai University, Faculty Of IInformation Technology & Computer Science </p>
                         <a href={CV} download="Mohamed AlkomaliCv">
                             <div className="icon-Home">
                                 <a href="https://github.com/MohamedAhmed2023">
@@ -52,11 +52,7 @@ function HomePage() {
                     <div id="AboutSection" className="about-content">
                         <div data-aos="fade-up-right" className=" left-content">
                             <h2>Get to know me!</h2>
-                            <p>I'm front end developer creating website using ReactJs I have ability to write the
-                                clean code using JavaScript and responsive UI using ReactJs , understand HTML, CSS and Javascript, ReactJs
-                                extremely desire for challenging projects as well as stronge ability to commuicate and work in team effectively
-                                , I'm looking for a job where my educational background, experience and skills can be fully utilized and
-                                enhanced</p>
+                            <p>I'm a software engineer and I work as frontend developer with a strong background in designing and developing responsive, user-friendly web applications. Proficient in HTML, CSS, JavaScript, and modern frontend frameworks like React.js. I am skilled in Agile methodologies and passionate about continuous learning and the application of the latest technologies and trends in frontend development. Excellent team player with strong communication skills</p>
                             <a href="#contactSection"><button type="button">Contact</button></a>
                         </div>
                         <div data-aos="zoom-in-up" className="right-content">
@@ -69,6 +65,9 @@ function HomePage() {
                                 <div>React js</div>
                                 <div>RESTFUL API</div>
                                 <div>MongoDB</div>
+                                <div>redux toolkit</div>
+                                <div>Data Structure</div>
+                                <div>Algorithmes</div>
                                 <div>GraphQl API</div>
                                 <div>GIT\Hub</div>
                                 <div>presentation skills</div>

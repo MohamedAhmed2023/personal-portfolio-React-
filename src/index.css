@@ -5,33 +5,104 @@ body {
   background-color: #02223B !important;
 }
 
+/* Responsive HeadingText */
 .HeadingText {
   color: #ffff;
-  margin: 30px 0;
+  margin: 2rem 0;
+  /* Use rem for margin to scale with font size */
   font-family: 'Kanit', sans-serif;
-  letter-spacing: 1px;
+  letter-spacing: 0.1rem;
+  /* Use rem for letter-spacing */
+  font-size: 2rem;
+  /* Base font size */
 }
 
+/* Responsive h2-Heading */
 .h2-Heading {
-  margin: 15px 0;
+  margin: 1rem 0;
+  /* Use rem for margin */
   font-family: 'Kanit', sans-serif;
+  font-size: 1.5rem;
+  /* Base font size */
 }
 
-
+/* Responsive span-Heading::before */
 .span-Heading::before {
   content: '';
   position: absolute;
-  height: 5px;
+  height: 0.3rem;
+  /* Use rem for height */
   width: 3rem;
   background: #41EAD4;
   left: 50%;
   transform: translateX(-50%);
-  border-radius: 5px;
+  border-radius: 0.3rem;
+  /* Use rem for border-radius */
 }
 
+/* Responsive p-Heading */
 .p-Heading {
-  font-size: 18px;
-  margin: 45px 0;
+  font-size: 1.125rem;
+  /* Base font size */
+  margin: 2.8rem 0;
+  /* Use rem for margin */
   font-family: 'Kanit', sans-serif;
   text-align: start;
+}
+
+/* Media Queries for Responsive Font Sizes */
+@media (max-width: 1200px) {
+  .HeadingText {
+    font-size: 1.75rem;
+  }
+
+  .h2-Heading {
+    font-size: 1.25rem;
+  }
+
+  .p-Heading {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .HeadingText {
+    font-size: 1.5rem;
+  }
+
+  .h2-Heading {
+    font-size: 1.125rem;
+  }
+
+  .p-Heading {
+    font-size: 0.875rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .HeadingText {
+    font-size: 1.25rem;
+  }
+
+  .h2-Heading {
+    font-size: 1rem;
+  }
+
+  .p-Heading {
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .HeadingText {
+    font-size: 1rem;
+  }
+
+  .h2-Heading {
+    font-size: 0.875rem;
+  }
+
+  .p-Heading {
+    font-size: 0.625rem;
+  }
 }
