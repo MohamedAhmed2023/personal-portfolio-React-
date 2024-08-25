@@ -1,12 +1,11 @@
-/* Global Font Settings */
 html {
     font-size: 16px;
-    /* Base font size for the root */
+
 }
 
 body {
     font-family: 'Kanit', sans-serif;
-    /* Ensure consistent font usage */
+
 }
 
 /* Container Home Section */
@@ -28,8 +27,6 @@ body {
 .container-home img {
     width: auto;
     height: 450px;
-    /* border-radius: 50%;
-    border: 2px solid #fff; */
 }
 
 .home-content h2 {
@@ -197,7 +194,6 @@ body {
 
     .left-content p {
         font-size: 0.9375rem;
-        /* 15px */
         letter-spacing: 1px;
     }
 
@@ -206,35 +202,30 @@ body {
         margin: 5px 10px;
         display: inline-block;
         font-size: 1.5rem;
-        /* 24px */
+
     }
 }
 
 @media (max-width: 768px) {
     .home-content h2 {
         font-size: 1.5rem;
-        /* 24px */
     }
 
     .home-content p {
         font-size: 1rem;
-        /* 16px */
     }
 
     .left-content p {
         font-size: 0.875rem;
-        /* 14px */
     }
 
     .home-content button,
     .left-content button {
         padding: 0.5rem 1rem;
         font-size: 0.9375rem;
-        /* 15px */
     }
 
     .icon-Home a {
         font-size: 1.25rem;
-        /* 20px */
     }
 }
