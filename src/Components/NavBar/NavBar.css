@@ -1,114 +1,135 @@
-.navbar {
-    padding: 1rem 5rem !important;
-    background-color: #022138 !important;
-    color: #fff !important;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
-    font-family: 'Kanit', sans-serif;
-    z-index: 100000000000;
-}
-
-.navbar ul {
-    margin: auto;
-}
-
-.NavLogo {
-    display: flex;
-    gap: 20px;
+.navbar, .sidebar {
+    background-color: #02223B;
+    color: white;
+    padding: 15px 5px !important;
 }
 
 .NavLogo a {
-    font-size: 1.2rem;
-    /* Adjusted font size */
+    color: white;
+    font-size: 1.5rem;
     font-weight: bold;
-    margin-top: 8px;
-    letter-spacing: 1px;
-    color: #fff;
-    font-weight: 700;
-    font-style: italic;
+    text-decoration: none;
     font-family: "Dancing Script", cursive;
-    font-optical-sizing: auto;
-    font-style: normal;
-}
-
-.NavLogo a:hover {
-    color: #fff;
-}
-
-.nav-item a {
-    font-size: 1rem;
-    /* Adjusted font size */
-    font-weight: 600;
-    color: #fff !important;
-}
-
-.navbar.scrolled {
-    background-color: #fff;
-}
-
-.icon-navbar {
-    display: flex;
-}
-
-.icon-navbar a {
-    margin: 0 10px;
-    color: #fff !important;
-    font-size: 1.25rem;
-    /* Adjusted font size */
 }
 
 .navbar-toggler {
-    color: #FFF !important;
-    font-size: 1.25rem;
-    /* Adjusted font size */
+    border: none;
+    color: white !important;
+    background: none;
 }
 
-/* responsive mobile */
-@media (max-width: 992px) {
-    .navbar {
-        padding: 10px !important;
-        text-align: start;
-        width: 100%;
-        z-index: 100000000000;
+.icon-navbar {
+    text-align: start;
+}
+
+.icon-navbar a {
+    color: white;
+    margin: 0 5px;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+    text-align: start;
+}
+
+.icon-navbar a:hover {
+    color: #bbb;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    padding: 20px !important;
+    transition: left 0.3s ease;
+    z-index: 1000;
+}
+
+.sidebar.open {
+    left: 0;
+}
+
+.sidebar-nav {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 40px;
+}
+
+.sidebar-nav li {
+    margin: 20px 0;
+    text-align: start;
+}
+
+.sidebar-nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.sidebar-nav a:hover {
+    color: #bbb;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 2rem;
+    cursor: pointer;
+    color: #fff;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+
+.NavLogoSideBar {
+    margin-top: 50px;
+    color: #fff;
+    text-align: start;
+    color: white;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: bold;
+    font-family: "Dancing Script", cursive;
+}
+
+/* Media Queries */
+@media (min-width: 992px) {
+    .NavLogo a {
+        font-size: 2rem;
     }
 
-    .navbar ul {
-        margin-top: 10px;
-        background-color: white;
-        padding: 10px;
+    .sidebar {
+        display: none;
     }
 
-    .navbar ul li {
-        border-bottom: 1.5px solid #ccc;
-        padding: 2px 5px;
-        color: #fff !important;
+    .navbar-collapse {
+        display: flex !important;
     }
+}
 
-    .navbar ul li a {
-        font-size: 0.9rem;
-        color: #022138 !important;
-    }
-
-    .NavLogo img {
-        width: 40px;
-        border-radius: 50%;
+@media (max-width: 991px) {
+    .navbar-collapse {
+        display: none !important;
     }
 
     .NavLogo a {
+        font-size: 1.2rem;
+    }
+
+    .icon-navbar a {
+        font-size: 1.2rem;
+    }
+
+    .sidebar-nav a {
         font-size: 1rem;
-    }
-
-    .navbar-toggler-icon {
-        width: 20px !important;
-        color: #fff;
-        padding: 10px;
-        border: #fff 1px solid;
-    }
-
-    .nav-item a {
-        color: #fff !important;
-    }
-
-    .icon-navbar {
-        display: none;
     }
 }
