@@ -18,7 +18,7 @@ ul {
     font-size: 1.2rem;
     font-weight: bold;
     text-decoration: none;
-    font-family: "Dancing Script", cursive;
+    font-family: "Dancing Script", cursive !important;
 }
 
 .navbar-brand:hover {
