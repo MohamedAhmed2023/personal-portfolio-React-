@@ -6,7 +6,6 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import img1 from "./coding.png"
 import img11 from "./web-design.png"
-import img111 from "./mobile-internet.png"
 
 
 
