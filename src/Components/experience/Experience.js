@@ -21,9 +21,8 @@ function Experience() {
                     <h2>Front end developer</h2>
                     <span>2023 Nov – 2024 Feb</span> <p>Nile
                         University , El Sheikh Zayed, Egypt</p>
-                    <p>Front end developer internship provided by the NilePreneurs and Nile
-                        University throughout the internship duration, we work develop Admin Panel
-                        byReactJs for Nile University</p>
+                    <p>I worked as a Front-End Developer at NilePreneurs and Nile University. During this time, I contributed to the development of an Admin Panel using React.js for Nile University.</p>
+
                 </div>
                 <div data-aos="flip-left" className="experience-right">
                     <img src={dpe} alt=""></img>

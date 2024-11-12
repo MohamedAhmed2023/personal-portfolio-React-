@@ -26,7 +26,7 @@ function HomePage() {
                 <div data-aos="fade-up" className="container-home">
                     <div className="home-content">
                         <h2>Mohamed Alkomali</h2>
-                        <p>Software Engineer, And I Work as A Frontend Developer Graduated From Sinai University, Faculty Of IInformation Technology & Computer Science </p>
+                        <p>software engineer, and i work as a mern stack developer graduated from sinai university, faculty of information technology & computer science</p>
                         <a href={CV} download="Mohamed AlkomaliCv">
                             <div className="icon-Home">
                                 <a href="https://github.com/MohamedAhmed2023">
@@ -48,33 +48,56 @@ function HomePage() {
                     <img src={Mohamed} alt="mohamed ahmed"></img>
                 </div>
                 <div className="container">
-                    <HeadingText title="About Me" discribions="Front End Developer And UI\UX Designer Student at Sinai University, Faculty of Information Technology" />
+                    <HeadingText
+                        title="About Me"
+                        discribions="Front End Developer And UI/UX Designer Student at Sinai University, Faculty of Information Technology"
+                    />
                     <div id="AboutSection" className="about-content">
-                        <div data-aos="fade-up-right" className=" left-content">
+                        <div data-aos="fade-up-right" className="left-content">
                             <h2>Get to know me!</h2>
-                            <p>I'm a software engineer and I work as frontend developer with a strong background in designing and developing responsive, user-friendly web applications. Proficient in HTML, CSS, JavaScript, and modern frontend frameworks like React.js. I am skilled in Agile methodologies and passionate about continuous learning and the application of the latest technologies and trends in frontend development. Excellent team player with strong communication skills</p>
-                            <a href="#contactSection"><button type="button">Contact</button></a>
+                            <p>
+                                I am a software engineer working as a MERN stack developer with a
+                                strong background in designing and developing interactive, user-friendly
+                                web applications. Proficient in HTML, CSS, and JavaScript, with expertise
+                                in modern frontend frameworks like React.js and backend technologies
+                                like Node.js, Express.js, and MongoDB. Skilled in Agile methodologies,
+                                I am passionate about continuous learning and applying the latest technologies
+                                and trends in full-stack development. I am an effective team player with
+                                strong communication skills, focused on delivering scalable, efficient solutions.
+                            </p>
+                            <a href="#contactSection">
+                                <button type="button">Contact</button>
+                            </a>
                         </div>
                         <div data-aos="zoom-in-up" className="right-content">
                             <h2>My Skills</h2>
-                            <div className="perant-skills" >
-                                <div>HTML5</div>
-                                <div>CSS</div>
-                                <div>JavaScript</div>
-                                <div>bootstrap</div>
-                                <div>React js</div>
-                                <div>RESTFUL API</div>
-                                <div>MongoDB</div>
-                                <div>redux toolkit</div>
-                                <div>Data Structure</div>
-                                <div>Algorithmes</div>
-                                <div>GraphQl API</div>
-                                <div>GIT\Hub</div>
-                                <div>presentation skills</div>
-                                <div>Responsive Web Design</div>
-                                <div>Object-Oriented Programming (OOP)</div>
-                                <div>fundamental of C++</div>
-                                <div>fundamental of python</div>
+                            <div className="skills-container">
+                                <div className="frontend-skills">
+                                    <h3>Frontend Skills</h3>
+                                    <ul>
+                                        <li>HTML5</li>
+                                        <li>CSS</li>
+                                        <li>JavaScript</li>
+                                        <li>React.js</li>
+                                        <li>GraphQL API</li>
+                                        <li>Bootstrap</li>
+                                        <li>Redux Toolkit</li>
+                                        <li>Responsive Web Design</li>
+                                        <li>Git/GitHub</li>
+                                    </ul>
+                                </div>
+                                <div className="backend-skills">
+                                    <h3>Backend Skills</h3>
+                                    <ul>
+                                        <li>Node.js</li>
+                                        <li>Express.js</li>
+                                        <li>MongoDB</li>
+                                        <li>RESTFUL API</li>
+                                        <li>Data Structure</li>
+                                        <li>Algorithms</li>
+                                        <li>Object-Oriented Programming (OOP)</li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>

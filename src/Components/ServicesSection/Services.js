@@ -20,23 +20,20 @@ function Services() {
         <>
             <HeadingText title="Services" />
             <div className="Services">
+                {/* Frontend Card */}
                 <div data-aos="flip-down" className="ServicesCard">
-                    <img src={img1} alt="webDevolopment"></img>
-                    <h2>Web Development</h2>
-                    <p>I create dynamic, robust, and scalable websites that help businesses thrive online. Utilizing the latest technologies, I build custom solutions to ensure your website is fast, and user-friendly.</p>
-                </div>
-                <div data-aos="flip-down" className="ServicesCard">
-                    <img src={img111} alt=""></img>
-                    <h2>Responsive Design</h2>
-                    <p> today's multi-device world, having a responsive website is crucial. I ensure your website looks and performs perfectly on any device, whether it’s a desktop, tablet, or mobile phone. </p>
-                </div>
-                <div data-aos="flip-down" className="ServicesCard">
-                    <img src={img11} alt=""></img>
-                    <h2>UI/UX Design</h2>
-                    <p>My design philosophy centers around creating intuitive and engaging user experiences. By understanding user behavior, I craft interfaces that are not only visually appealing but also highly functional.</p>
+                    <img src={img11} alt="Frontend Development" />
+                    <h2>Frontend Development</h2>
+                    <p>I specialize in creating visually appealing and responsive user interfaces website. Skilled in HTML, CSS, JavaScript, and frameworks like React.js, I focus on delivering seamless, interactive experiences for end-users.</p>
                 </div>
 
-            </div >
+                {/* Backend Card */}
+                <div data-aos="flip-down" className="ServicesCard">
+                    <img src={img1} alt="Backend Development" />
+                    <h2>Backend Development</h2>
+                    <p>Node.js, Express.js, and MongoDB, I build robust and secure server-side applications that manage data, user authentication, and APIs, providing a solid foundation for scalable web applications.</p>
+                </div>
+            </div>
         </>
     )
 }
