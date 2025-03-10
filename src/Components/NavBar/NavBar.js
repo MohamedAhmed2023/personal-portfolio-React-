@@ -1,9 +1,7 @@
 import React, { useState } from "react";
 import "./NavBar.css";
-import FacebookIcon from '@mui/icons-material/Facebook';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import InstagramIcon from '@mui/icons-material/Instagram';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 import 'animate.css/animate.min.css';
@@ -50,12 +48,6 @@ function NavBar() {
                             <a href="https://www.linkedin.com/in/mohamed-alkomali/">
                                 <LinkedInIcon />
                             </a>
-                            <a href="https://www.facebook.com/profile.php?id=100007754079369">
-                                <FacebookIcon />
-                            </a>
-                            <a href="https://www.instagram.com/mohamed_alkomali/">
-                                <InstagramIcon />
-                            </a>
                         </div>
                     </div>
                 </div>
@@ -78,12 +70,6 @@ function NavBar() {
                     </a>
                     <a href="https://www.linkedin.com/in/mohamed-alkomali/">
                         <LinkedInIcon />
-                    </a>
-                    <a href="https://www.facebook.com/profile.php?id=100007754079369">
-                        <FacebookIcon />
-                    </a>
-                    <a href="https://www.instagram.com/mohamed_alkomali/">
-                        <InstagramIcon />
                     </a>
                 </div>
             </div>

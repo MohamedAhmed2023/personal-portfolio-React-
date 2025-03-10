@@ -4,10 +4,9 @@ import "./HomePage.css"
 import Experience from "../experience/Experience";
 import HeadingText from "../HeadingText";
 import 'animate.css/animate.min.css';
-import FacebookIcon from '@mui/icons-material/Facebook';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import InstagramIcon from '@mui/icons-material/Instagram';
+
 import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -34,12 +33,6 @@ function HomePage() {
                                 </a>
                                 <a href="https://www.linkedin.com/in/mohamed-alkomali/" alt="">
                                     <LinkedInIcon />
-                                </a>
-                                <a href="https://www.facebook.com/profile.php?id=100007754079369" alt="">
-                                    <FacebookIcon />
-                                </a>
-                                <a href="https://www.instagram.com/mohamed_alkomali/" alt="">
-                                    <InstagramIcon />
                                 </a>
                             </div>
                             <button className="home-Btn" type="button">Download My Cv</button>
