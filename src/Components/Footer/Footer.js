@@ -8,7 +8,7 @@ function Footer() {
             <div className="Footer">
                 <div className="left-Footer">
                     <h3>Mohamed Alkomali</h3>
-                    <p>software engineer, and i work as a mern stack developer graduated from sinai university, faculty of information technology & computer science </p>
+                    <p>I'm a Software Engineer specialized in MERN Stack development, and a graduate of Sinai University, Faculty of Information Technology & Computer Science. I also work as an Information Technology Instructor, delivering practical training in web development, data analysis, and AI. </p>
                 </div>
                 <div className="right-Footer">
                     <h3>SOCIAL</h3>

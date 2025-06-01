@@ -25,7 +25,8 @@ function HomePage() {
                 <div data-aos="fade-up" className="container-home">
                     <div className="home-content">
                         <h2>Mohamed Alkomali</h2>
-                        <p>software engineer, and i work as a mern stack developer graduated from sinai university, faculty of information technology & computer science</p>
+                        <p>I'm a Software Engineer specialized in MERN Stack development, and a graduate of Sinai University, Faculty of Information Technology & Computer Science.
+                            I also work as an Information Technology Instructor, delivering practical training in web development, data analysis, and AI.</p>
                         <a href={CV} download="Mohamed AlkomaliCv">
                             <div className="icon-Home">
                                 <a href="https://github.com/MohamedAhmed2023">
@@ -49,14 +50,10 @@ function HomePage() {
                         <div data-aos="fade-up-right" className="left-content">
                             <h2>Get to know me!</h2>
                             <p>
-                                I am a software engineer working as a MERN stack developer with a
-                                strong background in designing and developing interactive, user-friendly
-                                web applications. Proficient in HTML, CSS, and JavaScript, with expertise
-                                in modern frontend frameworks like React.js and backend technologies
-                                like Node.js, Express.js, and MongoDB. Skilled in Agile methodologies,
-                                I am passionate about continuous learning and applying the latest technologies
-                                and trends in full-stack development. I am an effective team player with
-                                strong communication skills, focused on delivering scalable, efficient solutions.
+                                I'm a Software Engineer specialized in MERN Stack development, and a graduate of Sinai University, Faculty of Information Technology & Computer Science.
+                                I also work as an Information Technology Instructor, delivering practical training in web development, data analysis, and AI.
+
+                                I have a strong background in designing and developing interactive, user-friendly web applications. Proficient in HTML, CSS, and JavaScript, with expertise in modern frontend frameworks like React.js and backend technologies including Node.js, Express.js, and MongoDB.
                             </p>
                             <a href="#contactSection">
                                 <button type="button">Contact</button>
@@ -66,32 +63,35 @@ function HomePage() {
                             <h2>My Skills</h2>
                             <div className="skills-container">
                                 <div className="frontend-skills">
-                                    <h3>Frontend Skills</h3>
+                                    <h3>🖥 Web Development</h3>
                                     <ul>
-                                        <li>HTML5</li>
-                                        <li>CSS</li>
-                                        <li>JavaScript</li>
-                                        <li>React.js</li>
-                                        <li>GraphQL API</li>
-                                        <li>Bootstrap</li>
-                                        <li>Redux Toolkit</li>
-                                        <li>Responsive Web Design</li>
-                                        <li>Git/GitHub</li>
+                                        <li>HTML, CSS, JavaScript</li>
+                                        <li>React.js, Node.js, Express.js, MongoDB</li>
+                                        <li>RESTful APIs, Responsive Design, UI/UX Principles</li>
+                                    </ul>
+                                </div>
+
+                                <div className="backend-skills">
+                                    <h3>📊 Data Analysis</h3>
+                                    <ul>
+                                        <li>Data visualization</li>
+                                        <li>Excel, SQL</li>
+                                        <li>Microsoft Power BI</li>
+                                        <li>Python Programming Language</li>
                                     </ul>
                                 </div>
                                 <div className="backend-skills">
-                                    <h3>Backend Skills</h3>
+                                    <h3>🤖 Artificial Intelligence</h3>
                                     <ul>
-                                        <li>Node.js</li>
-                                        <li>Express.js</li>
-                                        <li>MongoDB</li>
-                                        <li>RESTFUL API</li>
-                                        <li>Data Structure</li>
-                                        <li>Algorithms</li>
-                                        <li>Object-Oriented Programming (OOP)</li>
+                                        <li>Machine Learning Fundamentals</li>
+                                        <li>Python Libraries: TensorFlow</li>
+                                        <li>Data preprocessing and feature engineering</li>
+                                        <li>Model evaluation and optimization</li>
+                                        <li>AI concepts: Neural Networks, NLP, Computer Vision</li>
                                     </ul>
                                 </div>
                             </div>
+
                         </div>
                     </div>
                 </div>

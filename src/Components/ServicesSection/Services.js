@@ -22,15 +22,15 @@ function Services() {
                 {/* Frontend Card */}
                 <div data-aos="flip-down" className="ServicesCard">
                     <img src={img11} alt="Frontend Development" />
-                    <h2>Frontend Development</h2>
-                    <p>I specialize in creating visually appealing and responsive user interfaces website. Skilled in HTML, CSS, JavaScript, and frameworks like React.js, I focus on delivering seamless, interactive experiences for end-users.</p>
+                    <h2>Web Development</h2>
+                    <p>I specialize in creating visually appealing and responsive user interfaces website. Skilled in HTML, CSS, JavaScript, Node.js, Express.js, and MongoDB, and frameworks like React.js, I focus on delivering seamless, interactive experiences for end-users.</p>
                 </div>
 
                 {/* Backend Card */}
                 <div data-aos="flip-down" className="ServicesCard">
                     <img src={img1} alt="Backend Development" />
-                    <h2>Backend Development</h2>
-                    <p>Node.js, Express.js, and MongoDB, I build robust and secure server-side applications that manage data, user authentication, and APIs, providing a solid foundation for scalable web applications.</p>
+                    <h2> Information Technology Instructor</h2>
+                    <p>At Tamkeen, I lead specialized training programs in web development, software engineering, data analysis, and AI.</p>
                 </div>
             </div>
         </>
