@@ -7,7 +7,7 @@ import 'animate.css/animate.min.css';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
-import Review from "../review/Review"
+
 
 import React, { useEffect } from 'react';
 import AOS from 'aos';
@@ -103,7 +103,6 @@ function HomePage() {
                 </div>
                 <Services />
                 <Experience />
-                {/* <Review /> */}
                 <HeadingText title="Projects" />
                 <div id="ProjectSection" className=" container">
                 </div>
