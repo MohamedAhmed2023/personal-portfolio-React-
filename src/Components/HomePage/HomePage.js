@@ -1,11 +1,13 @@
-import Mohamed from "../images/Code typing-amico.png"
-import CV from "./MyCV/Mohamed-Ahmed-Ali-Dubai-Cv.pdf"
+import Mohamed from "../images/WhatsApp_Image_2025-05-20_at_20.25.18_a77f0696-removebg-preview (1).png"
+import CV from "./MyCV/mohamed alkomali it.pdf"
 import "./HomePage.css"
 import Experience from "../experience/Experience";
 import HeadingText from "../HeadingText";
 import 'animate.css/animate.min.css';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
+import Review from "../review/Review"
 
 import React, { useEffect } from 'react';
 import AOS from 'aos';
@@ -35,6 +37,10 @@ function HomePage() {
                                 <a href="https://www.linkedin.com/in/mohamed-alkomali/" alt="">
                                     <LinkedInIcon />
                                 </a>
+                                <a href="https://wa.me/971505129022" alt="Phone Number">
+                                    <LocalPhoneIcon />
+                                </a>
+
                             </div>
                             <button className="home-Btn" type="button">Download My Cv</button>
                         </a>
@@ -97,6 +103,7 @@ function HomePage() {
                 </div>
                 <Services />
                 <Experience />
+                {/* <Review /> */}
                 <HeadingText title="Projects" />
                 <div id="ProjectSection" className=" container">
                 </div>

@@ -5,6 +5,8 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 import 'animate.css/animate.min.css';
+import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
+
 
 function NavBar() {
     const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -47,6 +49,9 @@ function NavBar() {
                             </a>
                             <a href="https://www.linkedin.com/in/mohamed-alkomali/">
                                 <LinkedInIcon />
+                            </a>
+                            <a href="https://wa.me/971505129022" alt="Phone Number">
+                                <LocalPhoneIcon />
                             </a>
                         </div>
                     </div>

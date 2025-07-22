@@ -1,6 +1,8 @@
 import "./Footer.css"
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
+
 function Footer() {
     return (
         <>
@@ -18,6 +20,9 @@ function Footer() {
                         </a>
                         <a href="https://www.linkedin.com/in/mohamed-alkomali/" alt="">
                             <LinkedInIcon />
+                        </a>
+                        <a href="https://wa.me/971505129022" alt="Phone Number">
+                            <LocalPhoneIcon />
                         </a>
                     </div>
                 </div>

@@ -6,7 +6,7 @@
 
 
 .navbar {
-    padding: 20px 5px !important;
+    padding: 20px 15px !important;
 }
 
 ul {
@@ -19,6 +19,11 @@ ul {
     font-weight: bold;
     text-decoration: none;
     font-family: "Dancing Script", cursive !important;
+
+}
+
+.NavLogo a:hover{
+    color: white;
 }
 
 .navbar-brand:hover {
