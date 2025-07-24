@@ -7,6 +7,7 @@ import 'animate.css/animate.min.css';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
+import Reviews from "../review/Review";
 
 
 import React, { useEffect } from 'react';
@@ -45,7 +46,11 @@ function HomePage() {
                             <button className="home-Btn" type="button">Download My Cv</button>
                         </a>
                     </div>
-                    <img src={Mohamed} alt="mohamed ahmed"></img>
+                    <div className="profile-wrapper">
+                        <div className="profile-bg-animate"></div>
+                        <img src={Mohamed} alt="Mohamed Alkomali" className="profile-image" />
+                    </div>
+
                 </div>
                 <div className="container">
                     <HeadingText
@@ -103,10 +108,14 @@ function HomePage() {
                 </div>
                 <Services />
                 <Experience />
+                <HeadingText
+                    title="Student Reviews"
+                    discribions="Front End Developer And UI/UX Designer Student at Sinai University, Faculty of Information Technology"
+                />
+                <Reviews />
                 <HeadingText title="Projects" />
                 <div id="ProjectSection" className=" container">
                 </div>
-
             </div >
         </>
     )

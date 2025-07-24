@@ -1,42 +1,51 @@
-// import { Swiper, SwiperSlide } from "swiper/react";
-// import "swiper/css";
-// import "swiper/css/navigation";
-// import { Navigation } from "swiper/modules";
+import { useState } from "react";
+import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
+import "./FeedbackImageSlider.css";
 
-// const testimonialImages = [
-//     "/reviews1.jpg", // هذه هي الصورة التي أرسلتها
-//     "/logo512.png"
-// ];
+import img1 from "../images/reviews1.jpg";
+import img2 from "../images/r2.jpg";
+import img3 from "../images/r3.jpg";
+import img4 from "../images/r4.jpg";
+import img5 from "../images/r5.jpg";
+import img6 from "../images/r6.jpg";
+import img7 from "../images/r7.jpg";
+import img8 from "../images/r8.jpg";
+import img9 from "../images/11.jpg";
+import img10 from "../images/r10.jpg";
 
-// export default function TestimonialsImagesSlider() {
-//     return (
-//         <div className="w-full max-w-5xl px-4 mx-auto py-10">
-//             <h2 className="text-3xl font-semibold text-center mb-8">Student Reviews</h2>
-//             <Swiper
-//                 modules={[Navigation]}
-//                 navigation
-//                 spaceBetween={20}
-//                 slidesPerView={1}
-//                 loop={true}
-//             >
-//                 {testimonialImages.map((img, index) => (
-//                     <SwiperSlide key={index}>
-//                         <div className="w-full flex justify-center">
-//                             <img
-//                                 src={img}
-//                                 alt={`Review ${index + 1}`}
-//                                 className="
-//                   w-[90%] sm:w-[80%] md:w-[70%] lg:w-[60%]
-//                   max-h-[500px]
-//                   object-contain
-//                   rounded-xl shadow-lg
-//                   transition duration-300 ease-in-out
-//                 "
-//                             />
-//                         </div>
-//                     </SwiperSlide>
-//                 ))}
-//             </Swiper>
-//         </div>
-//     );
-// }
+
+const images = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10];
+
+export default function FeedbackImageSlider() {
+    const [index, setIndex] = useState(0);
+    const [fade, setFade] = useState(true);
+
+    const handleChange = (newIndex) => {
+        setFade(false);
+        setTimeout(() => {
+            setIndex(newIndex);
+            setFade(true);
+        }, 150);
+    };
+
+    const prev = () => handleChange(index === 0 ? images.length - 1 : index - 1);
+    const next = () => handleChange(index === images.length - 1 ? 0 : index + 1);
+
+    return (
+        <div className="slider-container">
+            <div className="slider-frame">
+                <img
+                    src={images[index]}
+                    alt={`Slide ${index}`}
+                    className={`slider-image ${fade ? "fade-in" : "fade-out"}`}
+                />
+                <button className="arrow left" onClick={prev}>
+                    <FaChevronLeft />
+                </button>
+                <button className="arrow right" onClick={next}>
+                    <FaChevronRight />
+                </button>
+            </div>
+        </div>
+    );
+}
