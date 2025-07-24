@@ -46,11 +46,7 @@ function HomePage() {
                             <button className="home-Btn" type="button">Download My Cv</button>
                         </a>
                     </div>
-                    <div className="profile-wrapper">
-                        <div className="profile-bg-animate"></div>
-                        <img src={Mohamed} alt="Mohamed Alkomali" className="profile-image" />
-                    </div>
-
+                    <img src={Mohamed} alt="Mohamed Alkomali" className="profile-image" />
                 </div>
                 <div className="container">
                     <HeadingText

@@ -292,8 +292,3 @@
 
 }
 
-@media (max-width: 768px) {
-  .profile-wrapper {
-    margin-top: 120px !important;
-  }
-}
