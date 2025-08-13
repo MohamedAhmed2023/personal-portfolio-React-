@@ -12,9 +12,10 @@ import img7 from "../images/r7.jpg";
 import img8 from "../images/r8.jpg";
 import img9 from "../images/11.jpg";
 import img10 from "../images/r10.jpg";
+import img13 from "../images/re13.jpg";
 
 
-const images = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10];
+const images = [img1, img2, img3, img4, img13, img5, img6, img7, img9, img10, img8,];
 
 export default function FeedbackImageSlider() {
     const [index, setIndex] = useState(0);
@@ -25,7 +26,7 @@ export default function FeedbackImageSlider() {
         setTimeout(() => {
             setIndex(newIndex);
             setFade(true);
-        }, 150);
+        }, 50);
     };
 
     const prev = () => handleChange(index === 0 ? images.length - 1 : index - 1);
