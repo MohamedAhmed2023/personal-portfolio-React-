@@ -13,9 +13,11 @@ import img8 from "../images/r8.jpg";
 import img9 from "../images/11.jpg";
 import img10 from "../images/r10.jpg";
 import img13 from "../images/re13.jpg";
+import img14 from "../images/r14.jpg";
+import img15 from "../images/r15.jpg";
 
 
-const images = [img1, img2, img3, img4, img13, img5, img6, img7, img9, img10, img8,];
+const images = [img1, img2, img3, img4, img13, img5, img6, img7, img9, img10, img8, img14, img15];
 
 export default function FeedbackImageSlider() {
     const [index, setIndex] = useState(0);
