@@ -10,7 +10,9 @@ function Footer() {
             <div className="Footer">
                 <div className="left-Footer">
                     <h3>Mohamed Alkomali</h3>
-                    <p>I'm a Software Engineer specialized in MERN Stack development, and a graduate of Sinai University, Faculty of Information Technology & Computer Science. I also work as an Information Technology Instructor, delivering practical training in web development, data analysis, and AI. </p>
+                    <p>Results-driven Software Engineer specializing in MERN stack development, with hands-on experience in building scalable and user-focused web applications using React.js, Node.js, Express.js, and MongoDB. Passionate about clean code, performance optimization, and delivering high-quality end-to-end solutions.
+
+                    </p>
                 </div>
                 <div className="right-Footer">
                     <h3>SOCIAL</h3>

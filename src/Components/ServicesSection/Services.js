@@ -30,7 +30,8 @@ function Services() {
                 <div data-aos="flip-down" className="ServicesCard">
                     <img src={img1} alt="Backend Development" />
                     <h2> Information Technology Instructor</h2>
-                    <p>At Tamkeen, I lead specialized training programs in web development, software engineering, data analysis, and AI.</p>
+                    <p>At Tamkeen, I deliver specialized training programs in Software Engineering and MERN stack development (React.js, Node.js, Express.js, and MongoDB), focusing on hands-on, project-based learning aligned with real-world industry requirements.
+                    </p>
                 </div>
             </div>
         </>

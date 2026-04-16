@@ -1,5 +1,5 @@
 import Mohamed from "../images/WhatsApp_Image_2025-05-20_at_20.25.18_a77f0696-removebg-preview (1).png"
-import CV from "./MyCV/mohamed alkomali it.pdf"
+import CV from "./MyCV/Mohamed_Ahmed_Web_Egy.pdf"
 import "./HomePage.css"
 import Experience from "../experience/Experience";
 import HeadingText from "../HeadingText";
@@ -7,7 +7,7 @@ import 'animate.css/animate.min.css';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
-import Reviews from "../review/Review";
+// import Reviews from "../review/Review";
 
 
 import React, { useEffect } from 'react';
@@ -28,8 +28,9 @@ function HomePage() {
                 <div data-aos="fade-up" className="container-home">
                     <div className="home-content">
                         <h2>Mohamed Alkomali</h2>
-                        <p>I'm a Software Engineer specialized in MERN Stack development, and a graduate of Sinai University, Faculty of Information Technology & Computer Science.
-                            I also work as an Information Technology Instructor, delivering practical training in web development, data analysis, and AI.</p>
+                        <p>Results-driven Software Engineer specializing in MERN stack development, with hands-on experience in building scalable and user-focused web applications using React.js, Node.js, Express.js, and MongoDB. Passionate about clean code, performance optimization, and delivering high-quality end-to-end solutions.
+
+                        </p>
                         <a href={CV} download="Mohamed AlkomaliCv">
                             <div className="icon-Home">
                                 <a href="https://github.com/MohamedAhmed2023">
@@ -57,10 +58,10 @@ function HomePage() {
                         <div data-aos="fade-up-right" className="left-content">
                             <h2>Get to know me!</h2>
                             <p>
-                                I'm a Software Engineer specialized in MERN Stack development, and a graduate of Sinai University, Faculty of Information Technology & Computer Science.
-                                I also work as an Information Technology Instructor, delivering practical training in web development, data analysis, and AI.
+                                I'm a Software Engineer specialized in Full Stack web development using the MERN Stack, and a graduate of Sinai University, Faculty of Information Technology & Computer Science.
+                                I work as a Software Engineering Instructor, delivering practical training focused on frontend and backend development through real-world projects.
 
-                                I have a strong background in designing and developing interactive, user-friendly web applications. Proficient in HTML, CSS, and JavaScript, with expertise in modern frontend frameworks like React.js and backend technologies including Node.js, Express.js, and MongoDB.
+                                I have strong experience in building scalable, user-friendly web applications, covering both frontend and backend development. I focus on writing clean, maintainable code and creating high-performance applications using modern technologies.
                             </p>
                             <a href="#contactSection">
                                 <button type="button">Contact</button>
@@ -70,45 +71,34 @@ function HomePage() {
                             <h2>My Skills</h2>
                             <div className="skills-container">
                                 <div className="frontend-skills">
-                                    <h3>🖥 Web Development</h3>
+                                    <h3>🎨 Frontend Development</h3>
                                     <ul>
                                         <li>HTML, CSS, JavaScript</li>
-                                        <li>React.js, Node.js, Express.js, MongoDB</li>
-                                        <li>RESTful APIs, Responsive Design, UI/UX Principles</li>
+                                        <li>React.js</li>
+                                        <li>Responsive Design, UI/UX Principles</li>
                                     </ul>
                                 </div>
 
                                 <div className="backend-skills">
-                                    <h3>📊 Data Analysis</h3>
+                                    <h3>⚙️ Backend Development</h3>
                                     <ul>
-                                        <li>Data visualization</li>
-                                        <li>Excel, SQL</li>
-                                        <li>Microsoft Power BI</li>
-                                        <li>Python Programming Language</li>
-                                    </ul>
-                                </div>
-                                <div className="backend-skills">
-                                    <h3>🤖 Artificial Intelligence</h3>
-                                    <ul>
-                                        <li>Machine Learning Fundamentals</li>
-                                        <li>Python Libraries: TensorFlow</li>
-                                        <li>Data preprocessing and feature engineering</li>
-                                        <li>Model evaluation and optimization</li>
-                                        <li>AI concepts: Neural Networks, NLP, Computer Vision</li>
+                                        <li>Node.js & Express.js</li>
+                                        <li>MongoDB & Database Design</li>
+                                        <li>RESTful APIs Development</li>
+                                        <li>Authentication & Authorization</li>
                                     </ul>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                 </div>
                 <Services />
                 <Experience />
-                <HeadingText
+                {/* <HeadingText
                     title="Student Reviews"
                     discribions="Front End Developer And UI/UX Designer Student at Sinai University, Faculty of Information Technology"
-                />
-                <Reviews />
+                /> */}
+                {/* <Reviews /> */}
                 <HeadingText title="Projects" />
                 <div id="ProjectSection" className=" container">
                 </div>

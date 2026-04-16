@@ -2,14 +2,8 @@ import Isl from "./Components/images/islamic site.png"
 import Liv from "./Components/images/live code editor.png"
 import Ele from "./Components/images/e-elearning.png"
 import Sinai from "./Components/images/sinai.png"
-import Age from "./Components/images/Age.png"
-import Qr from "./Components/images/QR.png"
 import Crud from "./Components/images/Curd.png"
-import Speech from "./Components/images/speech.png"
-import login from "./Components/images/Screenshot (133).png"
-import weather from "./Components/images/weather.png"
 import quiz from "./Components/images/quiz.png"
-import NotesApp from "./Components/images/NOTESAPP.png"
 import AR from "./Components/images/AR.png"
 import CouresCrud from "./Components/images/Courses mangment system.png"
 import manasty from "./Components/images/manasty.png"
@@ -39,7 +33,7 @@ const CardsData = [
     {
         href: "https://www.linkedin.com/feed/update/urn:li:activity:7264632902498312193/",
         type: "full stack",
-        "id": 20,
+        "id": 8,
         "title":
             "Full Stack Mansety Blog App"
         ,
@@ -98,59 +92,6 @@ const CardsData = [
         "id": 9,
         "title": "Quiz App",
         image: quiz,
-    },
-    {
-        href: "https://alkomalinotesapp.netlify.app/",
-        githubHref: "https://github.com/MohamedAhmed2023/notes-app-by-react",
-        type: "Frontend",
-        "id": 10,
-        "title": "Notes App",
-        image: NotesApp,
-    },
-    {
-        href: "https://weather-app-nodejs-2.onrender.com",
-        githubHref: "https://github.com/MohamedAhmed2023/Weather-App-nodeJs",
-        type: "Backend",
-        "id": 11,
-        "title": "Weather App nodeJs",
-        image: weather,
-    },
-    {
-        href: "https://mohamedahmed2023.github.io/Text-To-Speech-Generator/",
-        githubHref: "https://github.com/MohamedAhmed2023/Text-To-Speech-Generator",
-        type: "Frontend",
-        "id": 13,
-        "title":
-            "Text To Speech Generator"
-        ,
-        image: Speech
-        ,
-    },
-    {
-        href: "https://mohamedahmed2023.github.io/QR-Code-Generator/",
-        githubHref: "https://github.com/MohamedAhmed2023/QR-Code-Generator",
-        type: "Frontend",
-        "id": 17,
-        "title": "QR Code Generator",
-        image: Qr
-        ,
-    },
-    {
-        href: "https://mohamedahmed2023.github.io/Javascript-Age-Calculator/",
-        githubHref: "",
-        type: "Frontend",
-        "id": 15,
-        "title": "Javascript Age Calculator",
-        image: Age
-        ,
-    },
-    {
-        href: "https://mohamedahmed2023.github.io/intern2grow-login-page/",
-        githubHref: "",
-        type: "Frontend",
-        "id": 19,
-        "title": "Login Page",
-        image: login,
     },
 
 ]

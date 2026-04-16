@@ -20,7 +20,7 @@ function Experience() {
                     <img src={Tamkeen} alt=""></img>
                     <h2>IT Instructor </h2>
                     <span>Apr 2025 – present </span> <p>Dubai, United Arab Emirates</p>
-                    <p>At Tamkeen, I lead specialized training programs in web development, software engineering, data analysis, and AI.</p>
+                    <p>At Tamkeen, I lead specialized training programs in web development, software engineering</p>
                 </div>
                 <div data-aos="flip-right" className="experience-left">
                     <img src={primeoscar} alt=""></img>
